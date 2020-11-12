@@ -15,8 +15,9 @@
             <td> {{this.priority}} </td>
             <td> {{this.complete}} </td>
             <td>
+                <!--this._id is the MongoDB primary key for each specific task -->
                 <a href="/tasks/edit/{{ this._id }}"> Edit </a>|
-                <a href="/tasks/delete/{{ this._id }}" class="test-danger delete"> Delete </a>
+                <a href="/tasks/delete/{{ this._id }}" class="text-danger"> Delete </a>
             </td>
         </tr>
 
