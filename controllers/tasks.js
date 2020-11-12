@@ -30,5 +30,24 @@ router.get('/add', (req, res, next) => {
     res.render('tasks/add')
 })
 
+//POST tasks/add for submission
+router.post('/add', (req, res, next) =>
+{
+    Task.create({
+        name: req.body.name,
+        priority: req.body.priority
+    }, (err, task) => {
+        if(err)
+        {
+            console.log(err)
+            res.end(err)
+        }
+        else
+        {
+            res.redirect('/tasks')
+        }
+    })
+})
+
 //Make Controller Public
 module.exports = router
