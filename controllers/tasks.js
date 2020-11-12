@@ -49,7 +49,7 @@ router.post('/add', (req, res, next) =>
     })
 })
 
-//GET tasks/delete/abc
+
 //GET tasks/delete/ - colon in the path represents a URL parameter
 router.get('/delete/:_id', (req, res, next) => {
     //store the selected id in a local variable
@@ -66,6 +66,62 @@ router.get('/delete/:_id', (req, res, next) => {
     })
 })
 
+///////   GET    //////////
+//GET ///////tasks/edit/....  populate edit for  with my existing task values
+router.get('/edit/:_id', (req, res, next) => {
+    //store the _id parameter in a local var
+    var _id = req.params._id
+    //use the selected _id to lookup the matching document
+    Task.findById(_id,(err,task) => {
+        if(err)
+        {
+            console.log(err)
+            res.end(err)
+        }
+        else
+        {
+            res.render('tasks/edit',
+                { task: task  })
+        }
+    })
+})
+
+
+
+/////// POST ///////tasks/edit/:_id -> updated selected task document
+router.post('/edit/:_id', (req, res, next) =>
+{
+    var _id = req.params._id
+//parse checkbox to a boolean
+    let complete = false
+    if(req.body.complete === "on")
+    {
+        complete = true
+    }
+
+    console.log('Complete value: ' + req.body.complete)
+    //instantiate a Task object with the new values from the form submission
+    var task = new Task({
+        _id: _id,
+        name: req.body.name,
+        priority: req.body.priority,
+        complete: complete
+    })
+    //update document with selected id, passing new task object to replace old values
+    Task.update({_id: _id}, task, (err) => {
+        if(err)
+        {
+            console.log(err)
+            res.end(err)
+        }
+        else
+        {
+            res.redirect('/tasks')
+        }
+    })
+})
+
+////
 
 //Make Controller Public
 module.exports = router
