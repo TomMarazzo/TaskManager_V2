@@ -23,7 +23,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/tasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605186561224</updated>
       <workItem from="1605186562243" duration="20672000" />
-      <workItem from="1605218225174" duration="15062000" />
+      <workItem from="1605218225174" duration="15542000" />
+      <workItem from="1605269493213" duration="3068000" />
     </task>
     <servers />
   </component>
@@ -92,6 +95,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605221375777">

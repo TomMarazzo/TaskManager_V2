@@ -33,14 +33,17 @@ router.get('/', isLoggedIn,(req, res, next) => {
         else {
             res.render('tasks/index',
                 {
-                    tasks: tasks
+                    tasks: tasks,
+                    user: req.user
                 })
         }
     })
 })
 //GET tasks add view
 router.get('/add', isLoggedIn,(req, res, next) => {
-    res.render('tasks/add')
+    res.render('tasks/add', {
+        user: req.user
+        })
 })
 
 //POST tasks/add for submission
@@ -94,7 +97,8 @@ router.get('/edit/:_id', isLoggedIn,(req, res, next) => {
         else
         {
             res.render('tasks/edit',
-                { task: task  })
+                { task: task,
+                user: req.user})
         }
     })
 })
