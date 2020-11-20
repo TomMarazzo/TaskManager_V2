@@ -20,12 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ece8d98b-40de-4063-969d-b992d1de530c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/github-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/google-icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/tasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/globals.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/globals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/javascripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/register.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +47,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kBuydq1JN6uFSq5HWWIOBmkp7L" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -78,7 +86,9 @@
       <updated>1605186561224</updated>
       <workItem from="1605186562243" duration="20672000" />
       <workItem from="1605218225174" duration="15542000" />
-      <workItem from="1605269493213" duration="3068000" />
+      <workItem from="1605269493213" duration="4101000" />
+      <workItem from="1605283631194" duration="1041000" />
+      <workItem from="1605825412995" duration="5384000" />
     </task>
     <servers />
   </component>
@@ -97,7 +107,26 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605832543723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-212.1920.1040@0.0.1920.1040" timestamp="1605832543723" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605832543723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-212.1920.1040@0.0.1920.1040" timestamp="1605832543723" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605832543723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-212.1920.1040@0.0.1920.1040" timestamp="1605832543723" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605832543723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-212.1920.1040@0.0.1920.1040" timestamp="1605832543723" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605221375777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

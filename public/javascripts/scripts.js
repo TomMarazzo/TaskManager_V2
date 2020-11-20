@@ -22,6 +22,7 @@ function comparePasswords()
     else
     {
         pwMsg.innerHTML = ""
+        pwMsg.className = ""
         return true
     }
 }
