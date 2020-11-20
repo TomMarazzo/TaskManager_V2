@@ -78,10 +78,10 @@ router.get('/logout', (req, res, next) => {
 router.get('/google', passport.authenticate('google', {
   scope:['profile']
 }),
-    (req, res) => {}
-    )
+    (req, res) => {})
+
 //Get / google/callback
-router.get('google/callback', passport.authenticate('google', {
+router.get('/google/callback', passport.authenticate('google', {
   failureRedirect: '/login'
 }),
     (req,res) =>{
